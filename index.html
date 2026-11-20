@@ -14,7 +14,22 @@ header{padding:22px 16px;text-align:center;border-bottom:1px solid #b99536}
 .tag{color:#e6c46a;letter-spacing:3px;font-size:12px}
 h1{font-size:35px;line-height:1.25;margin:20px 0;color:#f4d47a}
 .hero p{max-width:600px;margin:0 auto 28px;color:#ccc}
-.btn{display:inline-block;background:linear-gradient(120deg,#f5dc91,#bd8c29);color:#111;text-decoration:none;font-weight:bold;padding:14px 26px;border-radius:7px}
+.btn{
+display:inline-block;
+background:linear-gradient(120deg,#ffe28a,#d69b20);
+color:#111;
+text-decoration:none;
+font-weight:bold;
+font-size:22px;
+padding:20px 45px;
+border-radius:50px;
+margin:25px auto;
+box-shadow:0 0 20px #d69b20;
+animation:pulse 1.5s infinite;
+}
+@keyframes pulse{
+50%{transform:scale(1.06);}
+}
 section{padding:55px 20px;text-align:center}
 h2{color:#e6c46a;font-size:27px;margin-bottom:20px}
 .cards{display:grid;grid-template-columns:1fr;gap:16px;max-width:850px;margin:25px auto}
